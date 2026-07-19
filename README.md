@@ -4,6 +4,18 @@ MatchDay is a high-performance, real-time ticket booking platform designed for h
 
 ---
 
+## 💻 Tech Stack
+
+* **Frontend**: React.js, Vite, Tailwind CSS, Vanilla CSS, Material Symbols (Icons), `html2pdf.js` (PDF Generation)
+* **Backend**: Node.js, Express, Socket.io (Real-time seat state sync), JWT (Secure token generation)
+* **In-Memory Caching & Locking**: Redis (Fast transactional `SETNX` lock management)
+* **Database**: PostgreSQL (Relational schema, structured indexes, and tables)
+* **Reverse Proxy & Load Balancer**: Nginx (Distributing API requests via Round-Robin)
+* **Containerization**: Docker & Docker Compose (Orchestrating PostgreSQL, Redis, Nginx, and 3 horizontal Node.js replicas)
+* **Payments**: Razorpay SDK (Prefilled profiles, SHA256 payment signature verification)
+
+---
+
 ## 📸 Screenshots
 
 Here is a preview of the MatchDay interface:
