@@ -118,10 +118,11 @@ Our platform includes email OTP verification during user registration. This is c
 * **Production Mode**: Input your SMTP server credentials (e.g., Brevo) in the `.env` file to send live email confirmations.
 * **Test/Development Mode**: If the SMTP credentials (`SMTP_USER`, `SMTP_PASS`) are left blank or omitted, the server automatically defaults to **Test Mode**.
   * The API request completes successfully without throwing mail exceptions.
-  * The generated OTP code is logged directly inside the backend server logs/terminal console:
+  * The generated OTP code is logged directly inside the docker backend server logs/terminal console:
     ```text
     [DEV MODE] SMTP not configured. OTP for user@example.com is 123456
     ```
+    dude dont type 123456 its for example as i said above the docker console shows the generated opt in console copy and paste it 
   * You can simply copy this OTP from the console and enter it in the web verification form to complete registration instantly!
 
 ---
