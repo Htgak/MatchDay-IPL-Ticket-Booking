@@ -8,17 +8,25 @@ MatchDay is a high-performance, real-time ticket booking platform designed for h
 
 Here is a preview of the MatchDay interface:
 
-### 1. Home Page & Live Matches
+### 1. Home Page & Live Featured Matches
 Displays live and upcoming IPL matches with an interactive featured match carousel.
-![Home Page](docs/screenshots/homepage.png)
+![Featured Match](docs/screenshots/homepage_banner.png)
 
-### 2. Interactive Seat Selection
-A 3D-like, interactive stadium seat selection layout. Selected stands are mapped to distinct categories and seats can be locked in real-time.
-![Seat Selection](docs/screenshots/stadium_layout.png)
+### 2. Match Details & Booking Entry
+Shows complete venue description, match date/time, and has the checkout booking entrance.
+![Match Details](docs/screenshots/match_details.png)
 
-### 3. Booking Confirmation & PDF Ticket
-Shows confirmed ticket details, dynamic seat numbers, and a secure QR code. Tickets can be saved locally as a PDF.
-![Booking Confirmation](docs/screenshots/ticket_confirmation.png)
+### 3. Stadium Stand Block Selector
+Presents a circular stadium layout split by color-coded price points and stand regions.
+![Stand Block Selector](docs/screenshots/stadium_circle.png)
+
+### 4. Interactive Seat Grid Map
+Provides row-by-row seat layouts with a real-time status legend. Selected/Locked/Booked seats update dynamically.
+![Seat Grid Map](docs/screenshots/seat_grid.png)
+
+### 5. My Tickets Pass
+Lists user-confirmed reservations with ticket counts, status badges, and direct links to digital pass QR codes.
+![My Tickets Pass](docs/screenshots/my_tickets.png)
 
 ---
 
